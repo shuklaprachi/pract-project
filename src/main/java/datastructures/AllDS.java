@@ -73,7 +73,7 @@ public class AllDS {
             add("piuu");
             remove(1);
         }};
-        System.out.println(myList);
+        System.out.println(myList); 
     }
 
     private static ListNode deleteDuplicates(ListNode head) {
