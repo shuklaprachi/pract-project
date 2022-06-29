@@ -27,16 +27,15 @@ public class MainClass {
 
         System.out.println("========================================================================================");
 
-
+        Set<Pair> set2 = new HashSet<>();
+        set2.add(p1);
+        set2.add(p2);
+        System.out.println(set2);
+        
         Set<PairWithEqualsAndHashcode> set = new HashSet<>();
         set.add(p4);
         set.add(p5);
         System.out.println(set);
 
-
-        Set<Pair> set2 = new HashSet<>();
-        set2.add(p1);
-        set2.add(p2);
-        System.out.println(set2);
     }
 }
