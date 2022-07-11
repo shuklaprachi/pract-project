@@ -11,7 +11,7 @@ public class Pair {
 
     @Override
     public String toString() {
-        return "Pair{" +
+        return "Pair {" +
             "x=" + x +
             ", y=" + y +
             '}';
