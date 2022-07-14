@@ -44,6 +44,7 @@ public class AllDS {
                 return -1;
             }
         };
+        // PriorityQueue minheap
         PriorityQueue<Integer> pq1= new PriorityQueue<>(new Comparator<Integer>() {
             @Override
             public int compare(Integer o1, Integer o2) {
